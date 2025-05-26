@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Interactive Web Project</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+    <h1>🎉 Welcome to QuizzyWizzy 🎉</h1>
+    <nav>
+    <ul>
+        <li><a href="#quiz">Quiz</a></li>
+        <li><a href="#carousel">Carousel</a></li>
+        <li><a href="#joke">Joke API</a></li>
+    </ul>
+    </nav>
+</header>
+
+<main>
+    <!-- Quiz Section -->
+    <section id="quiz">
+    <h2>🧠 Interactive Quiz</h2>
+    <div id="quiz-container"></div>
+    <button id="submit">Submit</button>
+    <p id="quiz-result"></p>
+    </section>
+
+    <!-- Carousel Section -->
+    <section id="carousel">
+    <h2>📸 Image Carousel</h2>
+    <div class="carousel">
+        <button id="prev">❮</button>
+        <img src="https://placekitten.com/400/300" class="carousel-image" />
+        <img src="https://placebear.com/400/300" class="carousel-image" />
+        <img src="https://picsum.photos/400/300" class="carousel-image" />
+        <button id="next">❯</button>
+    </div>
+    </section>
+
+    <!-- Joke API Section -->
+    <section id="joke">
+    <h2>😂 Random Joke</h2>
+    <button id="get-joke">Get Joke</button>
+    <div id="joke-container"></div>
+    </section>
+</main>
+
+<script src="script.js"></script>
+<footer style="margin-top: 50px; padding: 20px; text-align: center; background-color: #fff6f1;">
+    <p style="font-size: 18px; margin-bottom: 10px;">Let’s connect 💌</p>
+    <div style="display: flex; justify-content: center; gap: 20px; align-items: center; flex-wrap: wrap;">
+
+    <!-- Gmail -->
+    <a href="pandayrohan@example.com" style="text-decoration: none; color: #ff6f61; font-weight: bold;" target="_blank">
+        📧 Email
+    </a>
+
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/" 
+    style="text-decoration: none; color: #0077b5; font-weight: bold;" target="_blank">
+        🔗 LinkedIn
+    </a>
+
+    </div>
+</footer>
+
+</body>
+</html>
